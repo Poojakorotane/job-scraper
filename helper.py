@@ -6,3 +6,9 @@ def get_url(start=0, postion=1, location='London', job_title='Graduate (Programm
     :return: The url for the job postings
     """
     return f'https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={job_title}&location={location}&geoId=100293800&currentJobId={postion}&start={start}'
+
+
+
+
+def new_fuction():
+    return 'test'
